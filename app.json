@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Reactive Thoughts",
+    "slug": "reactive-thoughts",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/ink.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/creativity.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/coollogo.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.yu1ia.reactivethoughts"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "@prisma/react-native"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d00eb9b0-ab38-426a-97e4-a1c88320d552"
+      }
+    }
+  }
+}
